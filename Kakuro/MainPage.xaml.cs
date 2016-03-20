@@ -26,5 +26,30 @@ namespace Kakuro
         {
             this.InitializeComponent();
         }
+
+        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+        
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
+        private void startBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void howToPlayBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void creditsBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
