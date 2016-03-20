@@ -14,13 +14,14 @@
                 <GradientStop Color="#FFFF5050" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Border BorderThickness="15" HorizontalAlignment="Left" Height="629" Margin="72,527,0,0" VerticalAlignment="Top" Width="929" BorderBrush="#FFDED5D5" CornerRadius="50">
+        </Border>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Height="137" Margin="10,575,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1060" FontSize="66.667" FontWeight="Bold" Text="Welcome to Kakuro Game" TextAlignment="Center" Foreground="#FFDED5D5"/>
         <Image Source="kakuro-pic.jpg" Width="200" Height="200" VerticalAlignment="Center" Margin="440,685,440,1035" Opacity="0.75"/>
         <Button x:Name="startBtn" Content="Start Game" HorizontalAlignment="Left" Margin="185,925,0,0" VerticalAlignment="Top" Height="75" Width="300" FontSize="40" FontWeight="Bold" Click="startBtn_Click" BorderBrush="Black" Foreground="#FFDED5D5"/>
         <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Left" Margin="598,925,0,0" VerticalAlignment="Top" Height="75" Width="300" FontSize="40" FontWeight="Bold" Click="exit_Click" BorderBrush="Black" Foreground="#FFDED5D5"/>
-        <Button x:Name="howBtn" Content="How to Play" HorizontalAlignment="Left" Height="75" Margin="185,1019,0,0" VerticalAlignment="Top" Width="300" FontSize="40" FontWeight="Bold" Click="howToPlayBtn_Click" BorderBrush="Black" Foreground="#FFDED5D5"/>
+        <Button x:Name="howBtn" Content="How to Play" Click = "howToPlayBtn_Click" HorizontalAlignment="Left" Height="75" Margin="185,1019,0,0" VerticalAlignment="Top" Width="300" FontSize="40" FontWeight="Bold" BorderBrush="Black" Foreground="#FFDED5D5"/>
         <Button x:Name="creditsBtn" Content="Credits" HorizontalAlignment="Left" Margin="598,1019,0,0" VerticalAlignment="Top" Width="300" FontSize="40" FontWeight="Bold" Height="75" Click="creditsBtn_Click" BorderBrush="Black" Foreground="#FFDED5D5"/>
-        <Border BorderThickness="15" HorizontalAlignment="Left" Height="629" Margin="72,527,0,0" VerticalAlignment="Top" Width="929" BorderBrush="#FFDED5D5" CornerRadius="50"/>
 
     </Grid>
 </Page>
