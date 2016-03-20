@@ -43,10 +43,6 @@ namespace Kakuro
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
@@ -75,17 +71,7 @@ namespace Kakuro
                 rootFrame.Navigate(typeof(MainPage), e.Arguments);
             }
             // Ensure the current window is active
-<<<<<<< HEAD
-            float DPI = Windows.Graphics.Display.DisplayInformation.GetForCurrentView().LogicalDpi;
-            Windows.UI.ViewManagement.ApplicationView.PreferredLaunchWindowingMode = Windows.UI.ViewManagement.ApplicationViewWindowingMode.PreferredLaunchViewSize;
-            var desiredSize = new Windows.Foundation.Size(((float)300 * 96.0f / DPI), ((float)640 * 96.0f / DPI));
-            Windows.UI.ViewManagement.ApplicationView.PreferredLaunchViewSize = desiredSize;
             Window.Current.Activate();
-            bool result = Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().TryResizeView(desiredSize);
-
-=======
-            Window.Current.Activate();
->>>>>>> origin/master
         }
 
         /// <summary>
