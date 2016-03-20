@@ -14,13 +14,13 @@
                 <GradientStop Color="#FFFF5050" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="467" Margin="71,579,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="939" FontSize="40" FontWeight="Bold" TextAlignment="Center" Foreground="#FFDED5D5">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="467" Margin="71,579,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="939" FontSize="42.667" FontWeight="Bold" TextAlignment="Center" Foreground="#FFDED5D5" FontFamily="Maiandra GD">
         	<Run Text="How to Play ?"/>
         	<LineBreak/>
         	<Run Text="The numbers in the boxes at the top represent the sums of columns while the numbers in the boxes by the left represent the sums of the rows. Your target is to fill the empty boxes with the numbers from 1 to 9 without repeating the same numbers more than once in any row or column while making sure to preserve the sums correctly."/>
         </TextBlock>
-        <Button x:Name="button" Content="Back to Menu" HorizontalAlignment="Left" Height="75" Margin="234,1041,0,0" VerticalAlignment="Top" Width="300" FontWeight="Bold" FontSize="40" Foreground="#FFDED5D5" BorderBrush="Black" Click="back_Click"/>
-        <Button x:Name="button1" Content="Exit" HorizontalAlignment="Left" Height="75" Margin="626,1041,0,0" VerticalAlignment="Top" Width="202" FontWeight="Bold" FontSize="40" Foreground="#FFDED5D5" BorderBrush="Black" Click="exit_Click"/>
+        <Button x:Name="button" Content="Back to Menu" HorizontalAlignment="Left" Height="75" Margin="234,1076,0,0" VerticalAlignment="Top" Width="300" FontWeight="Bold" FontSize="42.667" Foreground="#FFDED5D5" BorderBrush="#FFDED5D5" Click="back_Click" BorderThickness="5" RequestedTheme="Dark" FontFamily="Maiandra GD"/>
+        <Button x:Name="button1" Content="Exit" HorizontalAlignment="Left" Height="75" Margin="626,1076,0,0" VerticalAlignment="Top" Width="202" FontWeight="Bold" FontSize="42.667" Foreground="#FFDED5D5" BorderBrush="#FFDED5D5" Click="exit_Click" BorderThickness="5" RequestedTheme="Dark" FontFamily="Maiandra GD"/>
 
     </Grid>
 </Page>

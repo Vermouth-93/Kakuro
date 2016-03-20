@@ -57,7 +57,7 @@ namespace Kakuro
 
         private void startBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            //this.Frame.Navigate(typeof(BlankPage2));
         }
 
         private void howToPlayBtn_Click(object sender, RoutedEventArgs e)
